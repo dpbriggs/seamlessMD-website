@@ -1,6 +1,6 @@
-* SeamlessMD Coding Assignment
+* SeamlessMD Software Test
 
-This repository is my submission for the seamlessMD coding assignment.
+This repository is my submission for the seamlessMD software test.
 
 It's a basic flask application that serves the required data in 
 minimalist html.
