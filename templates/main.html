@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+  <title>SeamlessMD Engineering Test</title>
+</head>
+<body>
+  <div>
+    <h1>SeamlessMD Engineering Test</h1>
+    <p>Patient Name: {{ context.given_name }} {{ context.family_name }}</p>
+    <p>Organization Name: {{ context.organization_name }} </p>
+    <p>Gender: {{ context.gender }} </p>
+    <p># Conditions: {{ context.number_condition }}</p>
+    {% if context.number_condition > 0 %}
+    <p> Conditions: </p>
+      <ul>
+        {% for condition in context.conditions %}
+          <li> {{ condition }} </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</body>
