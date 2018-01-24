@@ -4,7 +4,7 @@ import json
 # Ideally the patient data should come from
 # a database or a more serious storage.
 
-patient_data_file = 'patient[3]_fixed.json'
+patient_data_file = 'patient_data_fixed.json'
 
 
 def get_patient_data():
