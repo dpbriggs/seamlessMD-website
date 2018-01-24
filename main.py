@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import json
 
 # Ideally the patient data should come from
-# a database or a more serious storage.
+# a database or a more serious storage system.
 
 patient_data_file = 'patient_data_fixed.json'
 
@@ -30,7 +30,7 @@ def format_patient_data(patient_data):
 seamlessMDWebsite = Flask(__name__)
 
 # As we serve the same data over and over again, we can just
-# store it.
+# store it in a variable here.
 
 patient_data = get_patient_data()
 formatted_patient_data = format_patient_data(patient_data)
