@@ -1,0 +1,26 @@
+* SeamlessMD Coding Assignment
+
+This repository is my submission for the seamlessMD coding assignment.
+
+It's a basic flask application that serves the required data in 
+minimalist html.
+
+** Run via Docker
+
+It's easiest to the use the docker image. Simply run at a terminal:
+
+=docker run -p 8080:8080 dpbriggs/seamlessmd-website=
+
+Then visit [[http://localhost:8080][http://localhost:8080]].
+
+** Run from source
+
+Install the required dependencies:
+
+=pip install -r requirements.txt=
+
+And run the application (use =python3= for debian based systems):
+
+=python main.py=
+
+Then visit [[http://localhost:8080][http://localhost:8080]].
